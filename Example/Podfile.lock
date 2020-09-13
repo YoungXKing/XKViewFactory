@@ -1,5 +1,5 @@
 PODS:
-  - XKViewFactory (0.0.1)
+  - XKViewFactory (0.0.3)
 
 DEPENDENCIES:
   - XKViewFactory (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XKViewFactory: df3a69a4f9d5149bba959c7d400a544cb3a5fdd0
+  XKViewFactory: b730cab41492c1da3b55ae6abf1551acbdc6811c
 
-PODFILE CHECKSUM: 40724441fcc1c81d12805556fb4336a12df39677
+PODFILE CHECKSUM: 1848eea849fec4d9e3b68beb951e8d0525852749
 
 COCOAPODS: 1.9.3

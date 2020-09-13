@@ -10,6 +10,7 @@ TODO: 这是长介绍，description，这是一个使用链式语法生成如UIL
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '' => '' }
   s.source           = { :git => 'https://github.com/YoungXKing/XKViewFactory.git', :tag => s.version.to_s }
+  #s.platform     = :ios, "10.0"
   s.ios.deployment_target = '10.0'
   s.source_files = 'XKViewFactory/Classes/**/*.{h,m}'
 

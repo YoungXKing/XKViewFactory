@@ -19,4 +19,9 @@
     NSLog(@"log some shit");
 }
 
++(void)logSomeShit2
+{
+    NSLog(@"log some shit2");
+}
+
 @end

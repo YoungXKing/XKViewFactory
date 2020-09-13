@@ -31,6 +31,7 @@
 - (void)log_action
 {
     [XKViewMaker logSomeText];
+    [XKViewMaker logSomeShit];
 }
 
 @end
