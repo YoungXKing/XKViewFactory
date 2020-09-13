@@ -1,0 +1,6 @@
+framework module XKViewFactory {
+  umbrella header "XKViewFactory-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,42 +1,23 @@
-#
-# Be sure to run `pod lib lint XKViewFactory.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'XKViewFactory'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XKViewFactory.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '0.0.1'
+  s.summary          = 'XKViewFactory的简短介绍summary'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 这是长介绍，description，这是一个使用链式语法生成如UILabel、UIButton等常用控件的库.
                        DESC
 
   s.homepage         = 'https://github.com/YoungXKing/XKViewFactory'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'YoungXKing' => '13730228573@163.com' }
+  s.author           = { 'YoungXKing' => '1337503263@qq.com' }
   s.source           = { :git => 'https://github.com/YoungXKing/XKViewFactory.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '10.0'
   s.source_files = 'XKViewFactory/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'XKViewFactory' => ['XKViewFactory/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

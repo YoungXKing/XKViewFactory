@@ -7,6 +7,7 @@
 //
 
 #import "XKViewController.h"
+#import <XKViewMaker.h>
 
 @interface XKViewController ()
 
@@ -17,13 +18,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeSystem];
+    button.backgroundColor = UIColor.lightGrayColor;
+    [button setTitle:@"Log" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(log_action) forControlEvents:UIControlEventTouchUpInside];
+    button.frame = CGRectMake(10, 90, 200, 50);
+    [self.view addSubview:button];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)log_action
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [XKViewMaker logSomeText];
 }
 
 @end
