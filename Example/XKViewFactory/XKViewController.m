@@ -18,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = UIColor.whiteColor;
     
     UIButton * button = [UIButton buttonWithType:UIButtonTypeSystem];
     button.backgroundColor = UIColor.lightGrayColor;

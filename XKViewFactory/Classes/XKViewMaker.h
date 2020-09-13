@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(void)logSomeText;
 
++(void)logSomeShit;
+
 @end
 
 NS_ASSUME_NONNULL_END
